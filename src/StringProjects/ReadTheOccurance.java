@@ -1,6 +1,10 @@
 package StringProjects;
 
 public class ReadTheOccurance {
+	
+	public void readString() {
+		
+	}
 	public static void main(String[] args) {
 		String str = "Udayu";
 		char[] ch = str.toCharArray();
@@ -12,8 +16,7 @@ public class ReadTheOccurance {
 		count ++;
 		System.out.println("Count of "+" "+ch[j]+" "+count);
 		}
-		
-		}
+			}
 		}
 	}
 
